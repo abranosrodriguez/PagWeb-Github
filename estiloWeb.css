@@ -1,0 +1,108 @@
+h2{
+    text-align: center;
+    margin-bottom: 200px;
+}
+div{
+    margin-bottom: 119px;
+}
+#a{
+    margin-top: 100px;
+}
+
+
+
+/* Fila 1 */
+#Tablero3x3 #fila1a{
+    border-width: 10px;
+    border-style:solid;
+    background-color: rgb(105, 74, 33);
+    border-color: rgba(231, 231, 108, 0.842);
+    
+    border-right-color: rgb(0, 0, 0);
+    border-left-color: rgb(117, 43, 9);   
+    padding: 50px;
+}
+
+#Tablero3x3 #fila1b{
+    border-width: 10px;
+    border-style: solid;
+    border-right-style:double;
+    border-bottom-style:double;
+    border-color: rgb(68, 27, 68);
+    background-color: rgb(55, 169, 153);
+    padding: 50px;
+}
+
+#Tablero3x3 #fila1c{
+    
+    border-width: 10px;
+    border-style: outset;
+    border-color: rgb(218, 32, 32);
+    padding: 50px;
+    background-color: rgb(219, 169, 169);
+}
+
+
+
+/* Fila 2 */
+#Tablero3x3 #fila2a{
+
+    border-width: 10px;
+    border-style: dotted;
+    border-color: rgb(40, 139, 134);
+    padding: 50px;
+    background-color: rgb(185, 81, 180);
+    border-bottom-style: ridge;
+}
+
+#Tablero3x3 #fila2b{
+    border-width: 10px;
+    border-style: dotted;
+    border-top-style: double;
+    border-left-style:solid;
+    background-color: rgb(94, 179, 73);
+    border-color: rgb(207, 18, 50);
+    border-left-color: rgb(224, 62, 62);
+    padding: 50px;
+}
+
+#Tablero3x3 #fila2c{
+    border-width: 10px;
+    border-style:dotted;
+    border-right-style: none;
+    border-color: rgb(0, 30, 128);
+    padding: 50px;
+}
+
+
+
+/* Fila 3 */
+#Tablero3x3 #fila3a{
+    border-width: 10px;
+    border-style: dashed;
+    background-color: rgb(158, 158, 158);
+    border-color: rgb(247, 0, 255);
+    border-bottom-color: rgb(32, 177, 76);
+    border-right-color: rgb(32, 177, 76);
+    padding: 50px;
+}
+
+#Tablero3x3 #fila3b{
+    border-width: 10px;
+    border-style:dashed;
+    border-color: rgb(255, 153, 0);
+    padding: 50px;
+    background-color: rgb(230, 12, 12);
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+#Tablero3x3 #fila3c{
+    border-width: 10px;
+    border-style: dashed;
+    background-color: rgb(28, 89, 107);
+    border-color: rgb(168, 230, 24);
+    border-top-style: dotted;
+    border-bottom-style: double;
+    padding: 50px;
+}
